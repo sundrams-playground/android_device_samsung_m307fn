@@ -17,11 +17,11 @@
 include device/samsung/m30s-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/m307f/BoardConfigVendor.mk
+include vendor/samsung/m307fn/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/m307f
+DEVICE_PATH := device/samsung/m307fn
 
-TARGET_OTA_ASSERT_DEVICE := m307f,m30s,m30sdd
+TARGET_OTA_ASSERT_DEVICE := m307fn,m30s,m30sxx
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true

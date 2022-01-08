@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m307f.mk
+    $(LOCAL_DIR)/lineage_m307fn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_m307f-eng \
-    lineage_m307f-user \
-    lineage_m307f-userdebug
+    lineage_m307fn-eng \
+    lineage_m307fn-user \
+    lineage_m307fn-userdebug
