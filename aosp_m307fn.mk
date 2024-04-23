@@ -30,12 +30,12 @@ TARGET_SCREEN_WIDTH := 1080
 ## Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common AOSP stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := m307fn
-PRODUCT_NAME := lineage_m307fn
+PRODUCT_NAME := aosp_m307fn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M307FN
 PRODUCT_MANUFACTURER := samsung
